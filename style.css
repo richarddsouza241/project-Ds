@@ -1,0 +1,120 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Bright Gradient Background */
+body {
+    background: linear-gradient(135deg, #00ffcc, #0066ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Glassmorphic Container */
+.glass-container {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    max-width: 450px;
+    color: #ffffff;
+}
+
+/* Title */
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #00ffcc;
+    text-shadow: 0px 0px 12px rgba(0, 255, 204, 0.8);
+    margin-bottom: 10px;
+}
+
+/* Subtext */
+.subtext {
+    font-size: 16px;
+    color: #cce7ff;
+    margin-bottom: 20px;
+}
+
+/* Input Group */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffff99;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input & Select Styling */
+input, select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.3);
+    color: #000;
+    outline: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+input::placeholder {
+    color: #333;
+    font-weight: bold;
+}
+
+input:focus, select:focus {
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 12px rgba(0, 255, 204, 0.8);
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    background: linear-gradient(90deg, #00ffcc, #0066ff);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #0066ff, #00ffcc);
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.8);
+}
+
+/* Result Box */
+.result-box {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffff99;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
+}
